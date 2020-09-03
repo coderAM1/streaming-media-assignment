@@ -1,0 +1,27 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Test Complete\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coderAM1/streaming-media-assignment.git"
+  },
+  "keywords": [],
+  "author": "Adam McAree",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coderAM1/streaming-media-assignment/issues"
+  },
+  "homepage": "https://github.com/coderAM1/streaming-media-assignment#readme",
+  "devDependencies": {
+    "eslint": "^7.8.1",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.0"
+  }
+}
